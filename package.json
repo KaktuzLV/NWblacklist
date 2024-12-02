@@ -1,0 +1,51 @@
+{
+  "name": "blacklist-app",
+  "productName": "blacklist-app",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-deb": "^7.5.0",
+    "@electron-forge/maker-rpm": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "@electron-forge/maker-zip": "^7.5.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron-forge/plugin-vite": "^7.5.0",
+    "@electron/fuses": "^1.8.0",
+    "autoprefixer": "^10.4.20",
+    "electron": "33.0.2",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.0.12"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Kaktuzlv"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@headlessui/tailwindcss": "^0.2.1",
+    "@heroicons/react": "^2.1.5",
+    "@tailwindcss/forms": "^0.5.9",
+    "electron-squirrel-startup": "^1.0.1",
+    "firebase": "^11.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.27.0",
+    "react-toastify": "^10.0.6",
+    "screenshot-desktop": "^1.15.0",
+    "sharp": "^0.33.5",
+    "tesseract.js": "^5.1.1"
+  }
+}
