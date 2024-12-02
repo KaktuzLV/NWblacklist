@@ -1,3 +1,3 @@
 ﻿# NWblacklist
-# New World App for whitelisting/blacklisting players
-# It isn't complete
+New World App for whitelisting/blacklisting players
+It isn't complete
